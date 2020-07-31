@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test  name="Login Page Test">
+    <classes>
+      <class name="com.nopcommerce.tests.LoginPageTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test  name="Add discount Test">
+    <classes>
+     <class name="com.nopcommerce.tests.addDiscountTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test  name="Edit Discount Test">
+    <classes>
+     
+      <class name="com.nopcommerce.tests.editDiscountTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Delete Discount Test">
+    <classes>
+     
+      <class name="com.nopcommerce.tests.deleteDiscountTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
